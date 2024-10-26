@@ -4,9 +4,6 @@ spring:
     url: jdbc:postgresql://cepg-aa-std-db.postgres.database.azure.com:5432/cloud_sample
     username: ktds
     password: ktds!1234
-    hikari:
-      maximum-pool-size: 2
-      minimum-idle: 2
   jpa:
     show-sql: true
     hibernate:
@@ -31,4 +28,4 @@ management:
         include: "*"
 
 pvc:
-  path: /mnt/cloud-sample
+  path: /mnt/82107493
